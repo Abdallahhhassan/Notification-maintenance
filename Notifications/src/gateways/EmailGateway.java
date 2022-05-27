@@ -1,10 +1,10 @@
-package Gateways;
+package gateways;
 
 import Messages.DailyNewsEmailMessage;
 import Messages.GradesAnnouncementEmailMessage;
 import Messages.TaskAddedEmailMessage;
 
-public class EmailGateway {
+public class EmailGateway implements Gateway {
 	
 	public void sendMessage(Object message, String user) {
 		String[] placeHolders = new String[] {}; // set some place holders here 
