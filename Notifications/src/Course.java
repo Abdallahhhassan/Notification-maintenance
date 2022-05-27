@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-import Gateways.EmailGateway;
+import gateways.EmailGateway;
 import Messages.TaskAddedEmailMessage;
 import Users.Professor;
 import Users.Student;
