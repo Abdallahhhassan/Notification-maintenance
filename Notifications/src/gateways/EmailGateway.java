@@ -1,8 +1,8 @@
 package gateways;
 
-import Messages.DailyNewsEmailMessage;
-import Messages.GradesAnnouncementEmailMessage;
-import Messages.TaskAddedEmailMessage;
+import messages.DailyNewsEmailMessage;
+import messages.GradesAnnouncementEmailMessage;
+import messages.TaskAddedEmailMessage;
 
 public class EmailGateway implements Gateway {
 	

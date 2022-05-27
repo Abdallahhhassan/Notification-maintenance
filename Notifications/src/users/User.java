@@ -1,6 +1,6 @@
 package users;
 
-public class User
+public class User implements Observer
 {
     String name;
     String email;
@@ -34,4 +34,8 @@ public class User
     }
 
 
+    @Override
+    public void update(String[] message) {
+        //Do update
+    }
 }
