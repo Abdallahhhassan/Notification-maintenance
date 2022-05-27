@@ -4,7 +4,9 @@ public class TaskAddedEmailMessage extends Messages{
 
 
 	
-	public void addTeamDescription() {
+	public void addTeamDescription()
+	{
+		//do some stuff
 		
 	}
 }
