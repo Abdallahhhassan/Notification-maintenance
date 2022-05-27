@@ -1,54 +1,25 @@
-package Users;
+package users;
 
 import java.sql.Date;
 
-public class Professor {
-	String name;
+public class Professor extends User {
 	String department;
 	Date hirringDate;
-	String PhDTopic;
-	String email;
-	String phoneNumber;
-	
-	
+	String phdtopic;
+
+
+
 	public Professor(String name, String department, Date hirringDate, String phDTopic, String email,
-			String phoneNumber) {
+					 String phoneNumber) {
 		super();
 		this.name = name;
 		this.department = department;
 		this.hirringDate = hirringDate;
-		PhDTopic = phDTopic;
+		phdtopic = phDTopic;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 	}
-	
-	
-	public String getEmail() {
-		return email;
-	}
 
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-
-	public String getPhoneNumber() {
-		return phoneNumber;
-	}
-
-
-	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber;
-	}
-
-
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
 	public String getDepartment() {
 		return department;
 	}
@@ -62,18 +33,12 @@ public class Professor {
 		this.hirringDate = hirringDate;
 	}
 	public String getPhDTopic() {
-		return PhDTopic;
+		return phdtopic;
 	}
 	public void setPhDTopic(String phDTopic) {
-		PhDTopic = phDTopic;
+		phdtopic = phDTopic;
 	}
-	
-	
-	public void notifyProfessor(String message) {
-		// do some stuff
-		
-	}
-	
-	
-	
+
+
+
 }
